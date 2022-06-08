@@ -1,11 +1,16 @@
 import React from 'react'
+import styled from 'styled-components'
 
-const Container = 
+const Container = styled.div`
+display: flex;
+color: aqua;
+justify-content: space-between;
+`
 
 const Navbar = () => {
     return (
-        <div>
-            Navbar
+        <div className='Container'>
+            <h1> Top gYm </h1>
         </div>
     )
 }
